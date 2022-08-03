@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+/*Dimensões e espaçamentos*/
+
+.titulo-form{
+    font-size: 40px;
+}
+
+form{
+    width: 96%;
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color:  rgb(84,0,105);
+}
+
+form fieldset{
+    padding: 20px 40px;
+    border: 3px solid rgb(96, 0, 116);
+    font-family:Arial;
+}
+
+form , legend {
+    text-align: center;
+    font-size: 17px;
+}
+
+
+form input[type=text], form input[type=email]{
+    display: inline-block;
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px 13px;
+    border: solid 1px rgb(197, 197, 197);
+}
+
+form input[type=text], form input[type=email]{
+    outline: 0;
+}
+
+form select {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width:calc(80% + 26px);
+    padding: 10px 13px;
+    border: solid 1px rgb(197, 197, 197);
+
+}
+
+h2{
+    margin-bottom: 20px;
+    font-family:Arial;
+    
+}
+
+
+.radio-input {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 30px;
+    
+}
+
+.radio-input span{
+    margin-left: 13px;
+    font-size: 16px;
+    color: rgb(65, 65, 65);
+}
+
+.checkbox-input{
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.checkbox-input span{
+    margin-left: 13px;
+    font-size: 16px;
+    color: rgb(65, 65, 65);
+}
+
+form textarea {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width:80%;
+    height: 100px;
+    padding: 10px 13px;
+    resize: none;
+    border: 1px solid rgb(84,0,105);
+    outline: none;
+    font-family:Arial;
+}
+
+
+
+form input[type=submit]{
+    width: 140px;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    border: 2px solid rgb(84, 0, 105);
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(84, 0, 105);
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+/*CORES ESTILOS*/
+
